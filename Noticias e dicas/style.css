@@ -69,8 +69,8 @@ body {
         text-align: center;
         display: block;
      }
-     .tabs-select{
-        word-break: break-all;
+     .tabs-select p{
+        word-break:break-all; 
      }
      .tabs-select h2{
         text-align: center;
