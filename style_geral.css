@@ -1,3 +1,19 @@
+/* body {
+    background-size: cover;
+    width: 100%;
+    background-image: url("seamless-dog-pattern-with-paw-prints-hearts-cat-foot-texture-pattern-with-doggy-pawprint_192280-743.webp");
+    background-size: unset;
+} */
+
+.logo {
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    width: 60px;
+    margin-left: 1em;
+}
+
 header {
     background-color: #0e6bcf;
     position: fixed;
@@ -11,6 +27,7 @@ header ul {
     align-items: center;
     list-style: none;
     display: flex;
+    margin-left: 4em;
 }
 
 header ul li {
@@ -22,10 +39,6 @@ header ul li {
     pointer-events: none;
     background-color: #1E4590;
     color: #FFB800;
-}
-
-header ul li img {
-    margin-right: 50px;
 }
 
 header ul .nav_buttons {
@@ -69,6 +82,9 @@ header ul .nav_buttons button:hover {
 }
 
 @media screen and (max-width:480px) {
+    .logo {
+        display: none;
+    }
     header {
         background-color: #3B6FD4;
         align-items: center;
@@ -112,6 +128,12 @@ header ul .nav_buttons button:hover {
     #menu__toggle:checked~.menu_shadow {
         display: initial !important;
     }
+    .mob-logo {
+        width: 100%;
+    }
+    .mob-logo img {
+        width: 100%;
+    }
     .menu__btn {
         position: fixed;
         top: 35px;
@@ -145,7 +167,7 @@ header ul .nav_buttons button:hover {
         top: 0;
         left: -100%;
         width: 300px;
-        height: 300px;
+        height: 550px;
         margin: 0;
         padding: 80px 0;
         border-radius: 0 0 20px 0;

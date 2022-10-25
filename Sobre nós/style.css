@@ -25,7 +25,8 @@ aside article {
     grid-area: asideInfo;
     font-size: 20px;
 }
-aside article h2{
+
+aside article h2 {
     color: #3B6FD4;
     font-size: 40px;
 }
@@ -54,7 +55,15 @@ aside article h2{
     width: 15em;
 }
 
-.missaoText,.visaoText,.valoresText {
+.missao img,
+.visao img,
+.valores img {
+    width: 60px;
+}
+
+.missaoText,
+.visaoText,
+.valoresText {
     border: 3px #00A3FF solid;
     border-radius: 10px;
     padding: 0.5em;
@@ -63,15 +72,17 @@ aside article h2{
     text-align: left;
     word-break: break-all;
 }
-.missaoText h2,.visaoText h2,.valoresText h2{
+
+.missaoText h2,
+.visaoText h2,
+.valoresText h2 {
     color: #00A3FF;
     text-align: center;
-
 }
+
 .visao {
     grid-area: visao;
     width: 15em;
-    
 }
 
 .valores {
@@ -79,17 +90,18 @@ aside article h2{
     width: 15em;
 }
 
-aside article p{
+aside article p {
     color: #353535;
     word-break: break-all;
 }
-.border{
+
+.border {
     background-color: #FFEBA4;
     padding: 1em;
     border-radius: 10px;
     margin-bottom: 2em;
 }
 
-.tabs{
+.tabs {
     display: none;
 }

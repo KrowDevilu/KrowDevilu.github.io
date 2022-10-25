@@ -8,7 +8,6 @@ body {
     margin-top: 6em;
 }
 
-
 .pagamento-opc {
     display: flex;
     justify-content: space-between;
@@ -209,11 +208,11 @@ input {
     justify-content: center;
 }
 
-@media screen and (max-width:480px){
-    .content{
+@media screen and (max-width:480px) {
+    .content {
         display: block;
     }
-    .pagamento-opc{
+    .pagamento-opc {
         display: grid;
         grid-template-columns: 50% 50%;
         max-width: 100%;
@@ -222,130 +221,117 @@ input {
     .cartao-opc,
     .pix-opc,
     .boleto-opc,
-    .racao-opc,.selected-opc  {
+    .racao-opc,
+    .selected-opc {
         padding: 0;
         padding: 5px;
         height: 3em;
         font-size: 20px;
     }
-    
     .cartao-opc img,
     .pix-opc img,
     .boleto-opc img,
-    .racao-opc img,.selected-opc img {
+    .racao-opc img,
+    .selected-opc img {
         padding-right: 5px;
         width: 50px;
         height: 50px;
     }
-
-.informacoes {
-    display: block;
-    padding: 0.5em;
-    font-size: 25px;
-    max-width: 480px;
-}
-
-input {
-    font-size: 20px;
-    height: 2em;
-}
-
-.long-input {
-    width: 100%;
-}
-
-.short-input {
-    max-width: 5em;
-    text-align: center;
-}
-.img-cartao{
-    width: 100%;
-    margin-top: 2em;
-    text-align: center;
-}
-.img-cartao img {
-    width: 100%;
-    justify-self: center;
-}
-
-.img-cartao a {
-    margin-top: 1em;
-    justify-self: center;
-}
-
-.img-cartao button {
-    font-size: 30px;
-    width: 100%;
-    height: 2em;
-    border: none;
-    margin-bottom: 0;
-}
-/* página do pix */
-
-.informacoes-pix {
-    display: block;
-    padding: 1em;
-    font-size: 30px;
-}
-
-.pix-infos {
-    margin-left: 0.5em;
-    display: block;
-}
-
-.div-infos {
-    padding: 0 1em;
-    width: 80%;
-    margin-bottom: 1em;
-}
-
-.pix-gerar {
-    display: flex;
-    justify-content: center;
-    margin-top: 0em;
-}
-
-.pix-gerar button {
-    width: 100%;
-    font-size: 30px;
-}
-/* página boleto */
-
-.informacoes-boleto {
-    font-size: 30px;
-    justify-content: initial;
-}
-.cpf {
-    text-align: center;
-}
-
-.btn-confirmar {
-    margin-top: 2em;
-    justify-self: center;
-}
-
-.btn-confirmar button {
-    font-size: 30px;
-}
-/* página ração */
-
-.informacoes-racao {
-    padding: 0;
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    font-size: 30px;
-}
-.informacoes-racao div {
-    word-wrap: break-word;
-    margin-left: 1em;
-    margin-right: 1em;
-    width: 100%;
-}
-
-/*pagina final*/
-
-.informacoes-doacao {
-    font-size: 30px;
-}
+    .informacoes {
+        display: block;
+        padding: 0.5em;
+        font-size: 25px;
+        max-width: 480px;
+    }
+    input {
+        font-size: 20px;
+        height: 2em;
+    }
+    .long-input {
+        width: 100%;
+    }
+    .short-input {
+        max-width: 5em;
+        text-align: center;
+    }
+    .img-cartao {
+        width: 100%;
+        margin-top: 2em;
+        text-align: center;
+    }
+    .img-cartao img {
+        width: 100%;
+        justify-self: center;
+    }
+    .img-cartao a {
+        margin-top: 1em;
+        justify-self: center;
+    }
+    .img-cartao button {
+        font-size: 30px;
+        width: 100%;
+        height: 2em;
+        border: none;
+        margin-bottom: 0;
+    }
+    /* página do pix */
+    .informacoes-pix {
+        display: block;
+        padding: 1em;
+        font-size: 30px;
+    }
+    .pix-infos {
+        margin-left: 0.5em;
+        display: block;
+    }
+    .div-infos {
+        padding: 0 1em;
+        width: 80%;
+        margin-bottom: 1em;
+    }
+    .pix-gerar {
+        display: flex;
+        justify-content: center;
+        margin-top: 0em;
+    }
+    .pix-gerar button {
+        width: 100%;
+        font-size: 30px;
+    }
+    /* página boleto */
+    .informacoes-boleto {
+        font-size: 30px;
+        justify-content: initial;
+    }
+    .cpf {
+        text-align: center;
+    }
+    .btn-confirmar {
+        margin-top: 2em;
+        justify-self: center;
+    }
+    .btn-confirmar button {
+        font-size: 30px;
+    }
+    /* página ração */
+    .informacoes-racao {
+        padding: 0;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        font-size: 30px;
+    }
+    .informacoes-racao div {
+        word-wrap: break-word;
+        margin-left: 1em;
+        margin-right: 1em;
+        width: 100%;
+    }
+    .informacoes-racao div img {
+        width: 100%;
+    }
+    /*pagina final*/
+    .informacoes-doacao {
+        font-size: 30px;
+    }
 }
